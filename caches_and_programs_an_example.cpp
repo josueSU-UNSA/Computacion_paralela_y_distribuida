@@ -1,9 +1,5 @@
 //Book: http://www.e-tahtam.com/~turgaybilgin/2013-2014-guz/ParalelProgramlama/ParallelProg.pdf
 
-// #include<iostream>
-// #include<ctime>
-// 
-// #define MAX 200
 
 #include<iostream>
 #include <bits/stdc++.h>
@@ -14,10 +10,6 @@ const int MAX= 10000;
 double A[MAX][MAX];
 double x[MAX];
 double y[MAX];
-
-
-
-
 
 void first_pair_loop(){
 
@@ -31,7 +23,6 @@ void first_pair_loop(){
     }
 }
 
-
 void second_pair_loop(){
     for(int j=0;j<MAX;j++){
         for(int i=0;i<MAX;i++){
@@ -42,8 +33,7 @@ void second_pair_loop(){
 }
 
 
- 
-int main()
+ int main()
 {
     srand(time(0));
     /* clock_t clock(void) returns the number of clock ticks
